@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, input, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Apply a box-sizing border-box to all elements */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #68c07e; /* Light green background color for the page */
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+/* Container styles */
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Form styles */
+.urlap,
+.modositUrlap,
+.adatok {
+  background-color: #4caf50; /* Green background color for the forms */
+  border: 1px solid #2e8b57; /* Darker green border color */
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.urlap:hover,
+.modositUrlap:hover,
+.adatok:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.02);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff; /* White label text color */
+  transition: color 0.3s ease;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3d8b52; /* Darker green border color */
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border-color: #fff; /* White border color on focus */
+}
+
+button {
+  background-color: #b8b8b8; /* Blue button color */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0057b4; /* Darker blue on hover */
+}
