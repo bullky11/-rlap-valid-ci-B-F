@@ -9,6 +9,7 @@ export default class UrlapView {
       event.preventDefault();
       this.#esemenyLetrehozo("sorFelvitel");
     });
+  
   }
   htmlOsszerak() {
     let tipus = "number";

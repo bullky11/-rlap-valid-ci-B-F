@@ -15,6 +15,7 @@ export default class DataService {
       });
   }
   postData(vegpont, adat) {
+    console.log(adat)
     axios
       .post(vegpont, adat)
       .then(function (response) {

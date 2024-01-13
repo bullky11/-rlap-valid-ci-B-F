@@ -4,7 +4,7 @@ export const AdatLeiro = {
   email: "E-mail",
   szul_hely: "Születési hely",
   szul_ev: "Születési idő",
-  created_at: "Ekkor készült",
-  updated_at: "Ekkor frissült",
+  created_at: "created",
+  updated_at: "update",
 };
  
